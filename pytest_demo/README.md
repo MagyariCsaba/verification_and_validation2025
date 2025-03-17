@@ -75,7 +75,7 @@ A projekt a következő tesztelési követelményeket valósítja meg:
 
 ## Dokumentáció
 
-A teljes projekt dokumentációja a `Szoftvertesztelés.md` fájlban található, amely tartalmazza:
+A teljes projekt dokumentációja a `Szoftvertesztelés.pdf` fájlban található, amely tartalmazza:
 - A választott egységteszt keretrendszer leírását
 - A tesztelési repository struktúráját
 - Minden egyes fejlesztett egységteszt részletes leírását
