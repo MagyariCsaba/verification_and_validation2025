@@ -36,9 +36,26 @@ class RelationsManager:
     def get_all_employees(self) -> list:
         return self.employee_list
 
+
+    #ez csak id-kat ad vissza
+    #def get_team_members(self, employee: Employee) -> list:
+    #    if self.is_leader(employee):
+    #        member_ids = self.teams[employee.id]
+    #        members = [e.id for e in self.employee_list if e.id in member_ids]
+
+      #      return members
+
+
+    #ez a teljes objektumokat adja vissza
     def get_team_members(self, employee: Employee) -> list:
         if self.is_leader(employee):
             member_ids = self.teams[employee.id]
-            members = [e.id for e in self.employee_list if e.id in member_ids]
-
+            members = [e for e in self.employee_list if e.id in member_ids]
             return members
+        
+
+   
+
+    
+
+
